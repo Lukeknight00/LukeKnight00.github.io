@@ -45,7 +45,8 @@ Table of contents
 html { font-size: 15px; }
 body{ font-family: 'Futura,Trebuchet MS,Arial,sans-serif', sans-serif; -webkit-font-smoothing: antialiased;  font-smoothing: antialiased; font-size:14px; color:white; font-weight: 400;line-height: 24px; background-color: #D7CEC7;}
 body, html { height: 100%; -moz-osx-font-smoothing: grayscale;}
-div.row {background-color: #e24e42; color: white; padding-top: 50px; border-radius: 1%; };
+div.row {background-color: #e24e42; color: white; padding-top: 50px; border-radius: 1%; }
+
 a, a:active, a:focus { color: black; text-decoration: none; }
 a:hover, a:active{color: black; text-decoration: none;}
 a:focus, a:active, button:focus, button:active,.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {outline: none; box-shadow: none; }
