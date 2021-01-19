@@ -3,9 +3,10 @@ let g;
 let b;
 let welcomeText ="Welcome!"
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(400, 400,);
   background("#57BDA2");
     textSize(40);
+    
 }
 
 function draw() {
