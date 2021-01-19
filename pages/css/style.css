@@ -50,19 +50,22 @@ div.row {background-color: #2493A2; color: white; padding: 40px; border-radius: 
 div.col-sm, div.col-sm-1, div.col-sm-2, div.col-sm-3, div.col-sm-4, div.col-sm-5, div.col-sm-6, div.col-sm-7, div.col-sm-8,div.col-sm-9, div.col-sm-10, div.col-sm-11,div.col-sm-12{
     border-radius: 5px;
     background-color: #57BDA2;
-    padding:15px;
+    padding:20px;
     margin-bottom: 15px;
     margin-left:-3px;
     margin-right: -3px;
+    overflow: auto;
+    align-content: center;
 }
 
 iframe{
-    content:display;
+    display:block;
     border-style: none;
     border-color: #0A0E28;
-    display:block;
+    margin:auto;
+    margin-left:15px;
     width:100%;
-    overflow: no-display;
+    
     
 }
 a, a:active, a:focus { color: #white; text-decoration: underline; }

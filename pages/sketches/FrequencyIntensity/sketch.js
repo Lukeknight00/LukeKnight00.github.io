@@ -18,11 +18,11 @@ function setup() {
   mic.start();
   fft = new p5.FFT();
   fft.setInput(mic);
+  textSize(50); fill(255,0,0); stroke(255,0,0); text('click to start', width/2,height/2);
 }
 
 function draw() {
   background(200);
-  if(textCheck==true){textSize(50); fill(255,0,0); stroke(255,0,0); text('click to start', width/2,height/2);}
   noFill();
   let spectrum = fft.analyze();
   
@@ -30,5 +30,7 @@ function draw() {
     stroke(map(spectrum[i], 0, 220, height, 0));
     line(i, 0, i, map(spectrum[i], 0, 255, height, 0));
   }
+  
+  if(textCheck==true){textSize(50); fill(255,0,0); stroke(255,0,0); text('click to start', width/2,height/2);}
   
 }
