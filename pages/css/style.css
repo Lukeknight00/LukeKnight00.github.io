@@ -8,7 +8,7 @@ Version: 2.3
 -------------------------------------
 
 Table of contents
-        
+     //YELLOW GOLD #DCB13C / AQUA #57BDA2 / TEAL #2493A2 MEDIUM BLUE #304A78 / NAVY BLUE #2C3259 / DARK BLUE #0A0E28   
     01. Google font
     02. Reset
     03. Typography
@@ -43,33 +43,30 @@ Table of contents
     Reset
 ====================================== */
 html { font-size: 15px; }
-body{ font-family: 'Futura,Trebuchet MS,Arial,sans-serif', sans-serif; -webkit-font-smoothing: antialiased;  font-smoothing: antialiased; font-size:14px; color:white; font-weight: 400;line-height: 24px; background-color: #D7CEC7;}
+body{ font-family: 'Futura,Trebuchet MS,Arial,sans-serif', sans-serif; -webkit-font-smoothing: antialiased;  font-smoothing: antialiased; font-size:14px; color:#DCB13C; font-weight: 400;line-height: 24px; background-color: #0A0E28;}
 body, html { height: 100%; -moz-osx-font-smoothing: grayscale;}
-div.row {background-color: #e24e42; color: white; padding-top: 50px; border-radius: 1%; }
-.container-iframe-7-4 {
-  padding-top: 57.14%; /* 7:4 */
+div.row {background-color: #2493A2; color: white; padding: 40px; border-radius: 45px; }
+
+div.col-sm, div.col-sm-1, div.col-sm-2, div.col-sm-3, div.col-sm-4, div.col-sm-5, div.col-sm-6, div.col-sm-7, div.col-sm-8,div.col-sm-9, div.col-sm-10, div.col-sm-11,div.col-sm-12{
+    border-radius: 5px;
+    background-color: #57BDA2;
+    padding:15px;
+    margin-bottom: 15px;
+    margin-left:-3px;
+    margin-right: -3px;
 }
-.container-iframe-9-5 {
-  padding-top: 55.55%; /* 9:5  */
+
+iframe{
+    content:display;
+    border-style: none;
+    border-color: #0A0E28;
+    display:block;
+    width:100%;
+    overflow: no-display;
+    
 }
-.container-iframe-3-2 {
-  padding-top: 66.66%; /* 1:1  */
-}
-.container-iframe-1 {
-  padding-top: 100%; /* 1:1  */
-}
-.responsive-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  padding-bottom: -100;
-}
-a, a:active, a:focus { color: black; text-decoration: none; }
-a:hover, a:active{color: black; text-decoration: none;}
+a, a:active, a:focus { color: #white; text-decoration: underline; }
+a:hover, a:active{color: #1A9695; text-decoration: none;}
 a:focus, a:active, button:focus, button:active,.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {outline: none; box-shadow: none; }
 img {max-width:100%; height:auto; }
 video { background-size: cover; display: table-cell; vertical-align: middle; width: 100%; }
@@ -79,7 +76,6 @@ input[type="button"], input[type="text"], input[type="email"], input[type="searc
 input:focus, textarea:focus{ border-color: #585858 !important; outline: none; }
 input[type="button"]:focus, input:focus, textarea:focus, select:focus, .form-control:focus, .btn.focus, .btn:focus{ outline: none; box-shadow: none; }
 select::-ms-expand{ display:none;}
-iframe { border: 0; align-content: center; align-self: center;}
 p {margin: 0 0 25px}
 b, strong { font-weight: 600;}
 .last-paragraph-no-margin p:last-of-type {margin-bottom:0}
@@ -2187,8 +2183,6 @@ footer .small-icon li {margin: 0 8px;}
 .mfp-bg, .my-mfp-zoom-in.mfp-ready.mfp-bg, .my-mfp-slide-bottom.mfp-ready.mfp-bg {background: #000; opacity: 0.93;}
 .mfp-bg, .mfp-wrap {z-index: 10007}
 #popup-form {cursor:default;}
-.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {color:#fff; background: transparent}
-.mfp-iframe-scaler iframe {box-shadow: none;}
 
 .mfp-close,.mfp-close:active {opacity: 1; background-color:transparent; color: #fff; right: 30px; top: 30px;}
 .modal-popup-main .mfp-close, .modal-popup-main .mfp-close:active { right: 0; top: 0;}
@@ -2931,18 +2925,6 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
     Portfolio
 ====================================== */
 
-/* gutter type */
-.portfolio-grid.gutter-very-small li, .blog-grid.gutter-very-small li {padding: 3px 3px }
-.portfolio-grid.gutter-small li, .blog-grid.gutter-small li {padding:5px 5px }
-.portfolio-grid.gutter-medium li, .blog-grid.gutter-medium li {padding:7px 7px }
-.portfolio-grid.gutter-large li, .blog-grid.gutter-large li {padding:10px 10px; }
-.portfolio-grid.gutter-extra-large li, .blog-grid.gutter-extra-large li {padding:20px;}
-.portfolio-grid.gutter-extra-large, .blog-grid.gutter-extra-large {margin:0 -20px;}
-.blog-grid.gutter-large { margin-left: 10px; margin-right:10px;}
-.portfolio-grid.gutter-large { margin: 0 10px;}
-.portfolio-grid.gutter-very-small, .blog-grid.gutter-very-small {margin:0 3px }
-.portfolio-grid.gutter-small, .blog-grid.gutter-small {margin:0 5px }
-.portfolio-grid.gutter-medium, .blog-grid.gutter-medium {margin:0 7px }
 
 /* portfolio 6 column */
 .portfolio-grid.work-6col li, .blog-grid.blog-6col li {width: 16.67%} 
