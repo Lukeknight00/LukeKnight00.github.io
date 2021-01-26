@@ -44,7 +44,6 @@
         <link rel="stylesheet" href="css/responsive.css" />
         <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
         </script>
-        <script src="js/p5.sound.js"></script>
         <script>
             $(function () {
                 $("#header").load("header.html");
@@ -54,20 +53,58 @@
     <div id="header" style="height:100px;"> <br /></div>
 </head>
 <body >
-    <!-- main content -->
-    <div class="container" >
-        <!--  Sound row  -->
-        <div class="row" style="margin-bottom: 25px; padding: 15px;" >
-            <a href="introToSound.html" style="color: whitesmoke"><h1>Sound input with Java Script.</h1></a>
-            <div class="col-sm-12">
-                <h4> A collection of small applications that use your microphone as input to create a sound visualization.  </h4>
-            </div>
-        </div>
+    <div class="container">
         <!--  Early drawings row  -->
         <div class="row" style="margin-bottom: 25px; padding: 15px;" >
-            <a href="introduction.html" style="color: whitesmoke"><h1>P5.JS introductory sketches </h1></a>
-            <div class="col-sm-12" >
-                <h4>When I first started I made some cool sketches, to get the hang of the syntax of JavaScript as well as well the P5.JS library.</h4>
+            <h2>My p5.JS sketches from the first couple days of learning the library</h2>
+            <div class="col-sm-4" >
+                <h4>Click to start a timer. Based on the array example from the p5.JS examples.</h4>
+            </div>
+            <div class="col-sm-8" >
+                <iframe src="sketches/lineClock/" style="height:200px"  title="line clock"></iframe>
+            </div>
+            <div class="col-sm-4" >
+                <h4>I used random noise to make some interesting noise thang. </h4>
+            </div>
+            <div class="col-sm-8" >
+                <iframe style="height:400px" src="sketches/MagicMusic/"  title="Music matcher"></iframe>
+            </div>
+            <div class="col-sm-4" >
+                <h4>These flys will avoid each other unless they are alone, then they rejoin the group. In effect it is a (bad)uniform random distribution simulator. <a href="sketches/FlyesSoundy/">Click here for the version with sound</a></h4>
+            </div>
+            <div class="col-sm-8" >
+                <iframe style="height:500px" src="sketches/Flyes/"  title="flys"></iframe>
+            </div>
+            <div class="col-sm-4" >
+                <h4>This was on the way to the flys, these are fleyes</h4>
+            </div>
+            <div class="col-sm-8" >
+                <iframe style="height:500px" src="sketches/EyeGang/"  title="fleyes"></iframe>
+            </div>
+            <div class="col-sm-4" >
+                <h4>This was before there was proper avoidance, also an experiment with trails</h4>
+            </div>
+            <div class="col-sm-8" >
+                <iframe style="height:500px" src="sketches/CreepyEyes/"  title="buzzy eyes"></iframe> 
+            </div>
+            
+            <div class="col-sm-6" >
+                <h4>I used gaussian noise, and a friends help to make some cool images, here they are with a standard deviation of 5, 10 and 15 respectively  </h4>
+            </div>
+            <div class="col-sm-6" >
+                <iframe style="height:300px" src="sketches/std5/"  title="STD 5"></iframe>
+            </div>
+            <div class="col-sm-6" >
+                <iframe style="height:300px" src="sketches/std10/"  title="STD 10"></iframe>
+            </div>
+            <div class="col-sm-6" >
+                <iframe style="height:300px" src="sketches/std15/"  title="STD 15"></iframe>     
+            </div>
+            <div class="col-sm-4" >
+                <h4>This needs a crab or two </h4>
+            </div>
+            <div class="col-sm-8" >
+                <iframe style="height:600px" src="sketches/Rave/"  title="crabless rave"></iframe>
             </div>
         </div>
     </div>
