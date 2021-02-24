@@ -62,24 +62,45 @@
                     "Grow" if lit, and stagnate, eventually withering if they 
                     are unlit. </h6>
             </div>
+            <div class="col-sm-6" style='align-content: left; align-self: center;'>
+         
+            <h2>02/24/2021 The Flowers</h2>
+            <h6>
+                Naturally you can't have a a plant that doesn't make babies, to
+                make plant babys a lot of plants use flowers - lets try that.
+            </h6>
+            <br/>
+            <h6>To make the flower, I used a sphere and a cone as a place holder.
+                The flower is circled in red, and its babys are circled in blue.
+                Plants have maximum heights that are randomly assigned within 
+                a range at the start. When they make babys, the babies inherit the 
+                maximum height from their parents, with some deviation.</h6>
+            </div>
+            <div class="col-sm-6" style='align-content: left; align-self: center;'>
+             <image src="images/flower1.png"><image>
+            </div>
+            
+           
+ 
+            <!--The light source -->
             <div class="col-sm-5" style="align-self: center;" >
-                <h1>The Light source</h1>
-                <h7>To start, I needed to see if light was hitting something; 
+                <h2>02/22/2021 The Light source</h2>
+                <h6>To start, I needed to see if light was hitting something; 
                     while my eyes can tell me whats lit, UNreal Engine was less 
-                    cooperative. I settled on a solution revolving around rays.</h7>
+                    cooperative. I settled on a solution revolving around rays.</h6>
                  <br/>
                 <h7>On every tick, I cast 300 rays, centered on my light sources.
                     If they strike an object, and that object is a plant, then they
                     increase the amount of energy that plant has.</h7>
                 <br/>
-                <h7>The rays are always being cast, even if they are not visible.
+                <h6>The rays are always being cast, even if they are not visible.
                 While this may seem like a lot of separate interactions, rays casting
                 is actually one of the "cheapest" calculations you can do in Unreal
                 Engine, unless you have to visualize them all! The video on this
                 page is almost 10 times the size of the video on the previous 
                 page, and thats with additional compression done to it, all 
                 due to the fact the video has to update all the rays.
-                </h7>
+                </h6>
                 
             </div>
             <div class="col-sm-7" >
