@@ -45,7 +45,7 @@ Table of contents
 html { font-size: 15px; }
 body{ font-family: 'Futura,Trebuchet MS,Arial,sans-serif', sans-serif; -webkit-font-smoothing: antialiased;  font-smoothing: antialiased; font-size:14px; color:#DCB13C; font-weight: 400;line-height: 24px; background-color: #0A0E28;}
 body, html { height: 100%; -moz-osx-font-smoothing: grayscale;}
-div.row {background-color: #2493A2; color: white; padding: 40px; border-radius: 45px; }
+div.row {background-color: #2493A2; color: white; padding: 30px; border-radius: 15px; }
 
 div.col-sm, div.col-sm-1, div.col-sm-2, div.col-sm-3, div.col-sm-4, div.col-sm-5, div.col-sm-6, div.col-sm-7, div.col-sm-8,div.col-sm-9, div.col-sm-10, div.col-sm-11,div.col-sm-12{
     border-radius: 5px;
